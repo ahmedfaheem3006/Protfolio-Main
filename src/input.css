@@ -2,11 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
   html {
     scroll-behavior: smooth;
   }
   body {
     @apply font-sans antialiased text-gray-900 dark:text-gray-100 bg-gray-50 dark:bg-gray-900 transition-colors duration-300;
+  }
+}
+
+@layer components {
+  .hover-3d {
+    @apply relative w-64 h-64 md:w-80 md:h-80 transition-transform duration-100 ease-out cursor-pointer;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+  }
+  
+  .hover-3d figure {
+    @apply w-full h-full transition-all duration-300 ease-out;
+    transform-style: preserve-3d;
+  }
+
+  .status-beacon {
+    @apply transition-transform duration-300 hover:scale-105 cursor-default;
+  }
+}
+
+@layer utilities {
+  .transform-style-3d {
+    transform-style: preserve-3d;
+  }
+  .translate-z-0 {
+    transform: translateZ(0);
   }
 }
