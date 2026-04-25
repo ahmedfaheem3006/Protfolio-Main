@@ -107,7 +107,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-400/40 to-purple-500/40 rounded-full opacity-40 group-hover:opacity-60 transition-opacity duration-500"></div>
             
             <img 
-              src="./images/Portfolio.png" 
+              src="/images/Portfolio.png" 
               alt="Ahmed Faheem" 
               className="relative z-10 object-cover w-full h-full rounded-full border-4 border-white/50 dark:border-gray-800/50 shadow-2xl backdrop-blur-sm transition-transform duration-500 group-hover:scale-[1.02]"
               onError={(e) => {

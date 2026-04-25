@@ -170,14 +170,14 @@ const Projects = () => {
       id: 2,
       title: "Medical Store E-commerce",
       category: ["angular", "node", "fullstack"], 
-      image: "image project/Medifit/medifit.png", 
+      image: "/image project/Medifit/medifit.png", 
       subtitle: "E-commerce Platform",
       description: "A comprehensive e-commerce platform for medical stores, including user and product management, shopping cart, and order processing. It offers a smooth user experience with a modern frontend and robust backend.",
       slides: [
-        "image project/Medifit/medifit.png",
-        "image project/Medifit/medifit 2.png",
-        "image project/Medifit/medifit 6.png",
-        "image project/Medifit/medifit cart.png"
+        "/image project/Medifit/medifit.png",
+        "/image project/Medifit/medifit 2.png",
+        "/image project/Medifit/medifit 6.png",
+        "/image project/Medifit/Medifit cart.png"
       ],
       techStack: ["Angular", "Node.js", "Express", "MongoDB", "Cloudinary"],
       liveLink: "https://medifit1.netlify.app/",
